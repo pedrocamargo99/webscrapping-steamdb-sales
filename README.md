@@ -1,8 +1,8 @@
  **Webscrapping SteamDB Sales** 🤖
 
-Esse repositório consiste em um projeto de Engenharia de Dados em que foi realizado a extração de dados do site https://steamdb.info/sales/ e carregado para o Google BigQuery.
+This repository consists of a Webscrapping project using Python, that extracts every game deal from the website https://steamdb.info/sales/ and loads into a Google BigQuery Table.
 
-### 🎯 Bibliotecas Utilizadas:
+### 🎯 Libraries Used:
 
 - from pandas_gbq import to_gbq
 - from google.oauth2 import service_account
@@ -18,10 +18,10 @@ Esse repositório consiste em um projeto de Engenharia de Dados em que foi reali
 - from dotenv import load_dotenv
 - import os
 
-### ✅ Resultados Alcançados:
-Criação de um código que navega todas as páginas do site e extrai todas as informações de promoções de cada jogo. Logo após a extração, carrega o código para o GBQ de acordo com as credenciais fornecidas pelo .env.
+### ✅ Results Found:
+Criation of a code that navegates every page of the website and extracts every information about a Steam Deal and loads the results to a GBQ Table based of the credentials given by the .env.
 
-### ⚠️ Nota
+### ⚠️ Note
 
-O arquivo .env_sample do repositório é um exemplo do que deve-se colocar das credenciais da sua conta do Google BigQuery para ocorrer a carga de dados.
+The .env_sample file in the repository is and example of what type of credential you need in Google big Query to load the data.
 
